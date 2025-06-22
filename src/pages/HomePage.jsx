@@ -16,7 +16,7 @@ const HomePage = () => {
 
         <img
 
-          src="/images/college-banner.png"
+          src="/Images\college-banner.png"
 
           alt="Vivekanand College Campus"
 
@@ -124,7 +124,8 @@ const HomePage = () => {
 
         />
 
-        <img src="/images/campus-life.jpg" alt="Students on campus ground" />
+        <img src="/images/campus-life.jpg" 
+        alt="Students on campus ground" />
 
       </div>
 
