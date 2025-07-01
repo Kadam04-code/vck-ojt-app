@@ -8,7 +8,7 @@ function DeveloperInfoPopup({ show, onClose, studentName, studentPhotoUrl, uniqu
     <div className="popup-overlay"> {/* Covers the whole screen, usually semi-transparent */}
       <div className="popup-content"> {/* The actual pop-up box */}
         <button className="close-button" onClick={onClose}>&times;</button> {/* Close button */}
-        <img src='public/Images/ankitapic.jpeg' alt={`${studentName}'s Photo`} className="student-photo" />
+        <img src='./Images/ankitapic.jpeg' alt={`${studentName}'s Photo`} className="student-photo" />
         <h3 className="popup-title">Developed & Deployed by:</h3>
         <p className="student-name">{studentName}</p>
         <p className="unique-message">{uniqueMessage}</p>
