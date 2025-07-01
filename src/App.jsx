@@ -3,7 +3,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import Contactpage from "./pages/ContactPage";
 import CoursesPage from "./pages/CoursesPage";
-import "./styles/pages.css";
+import "./styles/Pages.css";
 import "./App.css";
 
 import AdmissionPage from "./pages/AdmissionPage";
