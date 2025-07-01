@@ -1,11 +1,9 @@
 import './Footer.css';
 const Footer = () => {
-        return(
-            <div className='footer'>
-                {/* <p align="center">@rajkate..All right server</p> */}
-
-            </div>
-        )
+  return (
+    <footer className="footer">
+      <p>&copy; {new Date().getFullYear()} Vivekanand College. All rights reserved.</p>
+    </footer>
+  );
 }
-
 export default Footer;
